@@ -19,7 +19,7 @@ template <typename T>
 class ListaSensor {
 private:
     Nodo<T>* cabeza;    ///< Puntero al primer nodo de la lista
-    int tamaño;         ///< Número de elementos en la lista
+    int tamano;         ///< Número de elementos en la lista
 
 public:
     /**
